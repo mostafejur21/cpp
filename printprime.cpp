@@ -8,16 +8,16 @@ int main(){
 
     int a,b;
     cin>>a>>b;
-    int num;
-    for(num=a; num<=b;num++){
+    // int num;
+    for(a; a<=b;a++){
     int i;
-        for(i=2;i<num;i++){
-            if(num%i==0){
+        for(i=2;i<a;i++){
+            if(a%i==0){
                 break;
             }
         }
-        if(i==num){
-            cout<<num<<endl;
+        if(i==a){
+            cout<<a<<endl;
         }
     }   
     return 0;
