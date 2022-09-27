@@ -8,7 +8,7 @@ int main(){
     {
         cin>>a[i];
     }
-    int ans =2;
+    int ans = 2;
     int pd = a[1]-a[0];   //pd = previous comon difference
     int j = 2;
     int curr = 2;
